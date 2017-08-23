@@ -22,15 +22,22 @@ renderField(field) {
     return (
       <form>
         <Field
-          label="Title"
+          label="Title For Post"
           name="title"
           component={this.renderField}
           />
         <Field
-          label="tags"
+          label="Tags"
           name="tags"
           component={this.renderField}
           />
+        <Field
+          label="Post Content"
+          name=" content"
+          component={this.renderField}
+
+          />
+
       </form>
     );
   }
