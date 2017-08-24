@@ -21,7 +21,6 @@ class PostsShow extends Component {
     });
   }
 
-
   render() {
     //posts[this.props.match.params.id]; //the post we want to show
     //this.props === ownProps
