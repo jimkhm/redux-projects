@@ -12,7 +12,6 @@ import PostsShow from './components/posts_show';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
-
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
